@@ -9,8 +9,7 @@ const PostsPage = props => {
   return (
     <div className="posts-container-wrapper">
       {props.postData.map(p => (
-        <Post key={p.imageUrl}
-        postData={p}/>
+        <Post postData={p}/>
       ))}
       
     </div>
