@@ -1,5 +1,34 @@
 const dummyData = [
     {
+        username: "naturepix",
+        thumbnailUrl: 'https://image.flaticon.com/icons/png/512/493/493808.png',
+        imageUrl: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
+        likes: 40237,
+        timestamp: "January 17th 2020, 12:42:40 pm",
+        comments: [
+            {
+                username: "twitch",
+                text: "wow!"
+            },
+            {
+                username: "jeff",
+                text: "amazing!"
+            },
+            {
+                username: "philzcoffee",
+                text: "COOOOOL"
+            },
+            {
+                username: "biancasaurus",
+                text: "I love nature!"
+            },
+            {
+                username: "martinseludo",
+                text: "Good job!"
+            }
+        ]
+    },
+    {
         username: "philzcoffee",
         thumbnailUrl: 'https://instagram.fsjo9-1.fna.fbcdn.net/vp/d4728e507fe1eb2895fb7ca394bb6431/5E4122B1/t51.2885-15/s150x150/71118783_2434459423505735_6295784028176668008_n.jpg?_nc_ht=instagram.fsjo9-1.fna.fbcdn.net',
         imageUrl: 'https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80',

@@ -12,14 +12,27 @@
 }
 .search-form input {
   text-align: center;
+  width: 200%;
   color: #262626;
 }
 .image-wrapper {
   height: 50px;
+  display:flex;
+  flex-direction: row;
+}
+
+.img-logo {
+  background-image: url('https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-text-blue-png.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 50px;
+    margin-right: -500px;
 }
 
 .logo-image {
   height: 100%;
+  border-left: 2px solid grey;
 }
 
 .social-wrapper {
@@ -28,4 +41,13 @@
 
 .social {
   width: 50px;
+}
+
+i {
+  font-size: 1.4rem;
+}
+
+.fa-instagram:before {
+  font-size: 1.8rem;
+  padding-right: 30px;
 }
